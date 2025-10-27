@@ -33,29 +33,3 @@ This task introduces **Model Context Protocol (MCP)**. The agent performs **curr
 This task showcases **Action Engine**, an advanced form of A2A interaction, where agents collaborate to complete complex multi-step user requests (like searching and comparing products) using agent task delegation.
 
 ---
-
-## ▶️ Video Walkthrough
-
-A step-by-step demonstration of all three tasks, their execution, and code structure.
-
-🎥 Video Link: *Add your Google Drive / YouTube link here*  
-—or—  
-📎 File included in `/video/walkthrough.mp4`
-
----
-
-## 🚀 Setup Instructions
-
-```bash
-# Clone repository
-git clone https://github.com/<your-username>/<repo-name>.git
-cd <repo-name>
-
-# Create virtual environment
-python3 -m venv venv
-source venv/bin/activate      # Windows: venv\Scripts\activate
-
-# Install dependencies
-pip install -r requirements.txt
-
-
