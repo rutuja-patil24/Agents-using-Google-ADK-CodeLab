@@ -122,7 +122,7 @@ If your app includes a deploy.py or you’re following the exact codelab steps, 
 🌐 Expose your ADK app over A2A
 
 1) Create a service account (only if you want the A2A server to use SA creds)
-   ```
+```bash
 cd image_scoring_adk_a2a_server
 
 gcloud iam service-accounts create adk-a2a-sa \
@@ -141,25 +141,27 @@ gcloud iam service-accounts keys create key.json \
   --iam-account adk-a2a-sa@${GOOGLE_CLOUD_PROJECT}.iam.gserviceaccount.com
 ```
 2) Start the A2A server
-```
-Important: run this from the folder that contains the remote_a2a/ directory.
 
+Important: run this from the folder that contains the remote_a2a/ directory.
+```
 # Ensure env (optional but convenient)
 export GOOGLE_APPLICATION_CREDENTIALS="$PWD/key.json"
 export GOOGLE_CLOUD_PROJECT=$GOOGLE_CLOUD_PROJECT
 export GOOGLE_CLOUD_LOCATION=$GOOGLE_CLOUD_LOCATION
 export GCS_BUCKET_NAME=${GCS_BUCKET_NAME##gs://}  # plain bucket name for tools
-
+```
 # Start the A2A API server on port 8001
+```
 adk api_server --a2a --port 8001 remote_a2a
 
-
+```
 You should see Uvicorn running on http://127.0.0.1:8001.
 
 3) Verify the agent card
+```
 curl -s http://localhost:8001/a2a/image_scoring/.well-known/agent.json | jq
 
-4) Send a request
+5) Send a request
 curl -s -X POST http://localhost:8001/a2a/image_scoring \
   -H "Content-Type: application/json" \
   -d '{
@@ -173,6 +175,6 @@ curl -s -X POST http://localhost:8001/a2a/image_scoring \
     }
   }' | jq
 
-
-You should receive a JSON-RPC response with status.state of running → completed (or useful error if something’s missing).
 ```
+You should receive a JSON-RPC response with status.state of running → completed (or useful error if something’s missing).
+
