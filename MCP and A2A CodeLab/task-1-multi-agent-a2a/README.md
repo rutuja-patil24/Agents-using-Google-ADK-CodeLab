@@ -39,34 +39,22 @@ This repo walks you through:
 ---
 
 ## 🗂 Repo layout (suggested)
-
+```
 .
 ├── image_scoring/ # your ADK app
-
 │ ├── agent.py
-
 │ ├── requirements.txt
-
 │ └── ... (tools, flows, etc.)
-
 ├── image_scoring_adk_a2a_server/ # A2A wrapper for the app
-
 │ ├── remote_a2a/
-
 │ │ └── image_scoring/
-
 │ │ └── agent.json # A2A agent card
-
 │ ├── a2a_agent.py
-
 │ └── init.py
-
 ├── testclient/
-
 │ └── remote_test.py # (optional) Python client for Agent Engine
-
 └── README.md
-
+```
 
 > Your folder names can differ; just keep the **A2A “agents dir”** (e.g., `remote_a2a/`) as a real directory on disk.
 
