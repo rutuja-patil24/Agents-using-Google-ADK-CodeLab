@@ -17,7 +17,7 @@ This repository contains my implementation of three Google **ADK (Agent Developm
 ## 🧩 Task Details
 
 ### ✅ Task 1 – Multi-Agent System with A2A
-📁 Folder: [`task-1-multi-agent-a2a`](https://github.com/rutuja-patil24/Agents-using-Google-ADK-CodeLab/tree/main/MCP%20and%20A2A%20CodeLab/1)_Create%20multi%20agent%20system%20with%20ADK%20and%20deploy%20in%20Agent%20Engine%20and%20get%20started%20with%20A2A%20protocol)  
+📁 Folder: [`task-1-multi-agent-a2a`](./task-1-multi-agent-a2a)  
 This task implements a **multi-agent system** using ADK and demonstrates how **A2A (Agent-to-Agent) protocol** enables secure message passing and collaboration between agents. It includes Agent Engine deployment and agent configuration examples.
 
 ---
