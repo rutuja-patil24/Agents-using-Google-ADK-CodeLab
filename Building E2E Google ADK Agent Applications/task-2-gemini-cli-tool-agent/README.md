@@ -16,8 +16,7 @@ The result is an agent that behaves like a **developer assistant** capable of un
 # 📽️ **Demo Video**
 Watch the full walkthrough of this project here:
 
-🔗 **Demo Video:** https://your-video-link-here.com  
-*(Replace with your actual YouTube/Drive link)*
+🔗 **Demo Video:** https://youtu.be/IK9lCYdF8dQ  
 
 ---
 
