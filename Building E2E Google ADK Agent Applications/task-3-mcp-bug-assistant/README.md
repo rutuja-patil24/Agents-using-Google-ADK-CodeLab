@@ -17,7 +17,7 @@ The **Software Bug Assistant** is an intelligent agent that:
 ---
 ## 📹 Demo Video
 
-🎥 Demo Walkthrough: https://youtu.be/mKeN_Bqqdcs
+🎥 Demo Walkthrough: https://youtu.be/hHN-l7o4r7o
 
 ## 🧭 Architecture Summary
 
