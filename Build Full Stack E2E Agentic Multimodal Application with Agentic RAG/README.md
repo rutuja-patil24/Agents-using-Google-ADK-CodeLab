@@ -9,7 +9,7 @@ The assistant extracts structured data from **receipt images**, stores them in F
 ## 🎥 Demo Video
 
 👉 **Watch the full project demo:**  
-https://youtu.be/YOUR_VIDEO_LINK_HERE
+https://youtu.be/-7UO6zZYVWM
 
 ---
 ## ✅ Features
