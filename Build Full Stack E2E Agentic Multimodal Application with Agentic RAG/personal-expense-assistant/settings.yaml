@@ -1,0 +1,5 @@
+GCLOUD_LOCATION: "us-central1"
+GCLOUD_PROJECT_ID: "the-byway-473000-u5"
+BACKEND_URL: "http://localhost:8081/chat"
+STORAGE_BUCKET_NAME: "personal-expense-assistant-the-byway-473000-u5"
+DB_COLLECTION_NAME: "personal-expense-assistant-receipts"
