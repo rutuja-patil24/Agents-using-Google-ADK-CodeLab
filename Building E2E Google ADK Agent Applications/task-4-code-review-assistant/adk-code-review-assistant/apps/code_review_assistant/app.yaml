@@ -1,0 +1,3 @@
+id: code_review_assistant
+title: Code Review Assistant
+entrypoint: code_review_assistant.agent_engine_app:app
