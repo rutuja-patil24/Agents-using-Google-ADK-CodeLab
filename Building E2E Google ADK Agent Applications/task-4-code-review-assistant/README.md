@@ -4,11 +4,9 @@
 This folder contains my implementation of the codelab **“Building a Production AI Code Review Assistant with Google ADK”** which guides you through building a full-stack multi-agent system for reviewing and fixing Python code. :contentReference[oaicite:1]{index=1}
 
 ---
-## 🎥 Demo & Video Walkthrough
+## 📹 Demo Video
 
-A recorded demo walkthrough of the agent in action (from submission → feedback → fix) is available here:
-[YouTube / Vimeo link placeholder]
-(Replace with your actual link once uploaded.)
+🎥 Demo Walkthrough: https://youtu.be/hHN-l7o4r7o
 
 ---
 
