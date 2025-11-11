@@ -6,7 +6,7 @@ This folder contains my implementation of the codelab **“Building a Production
 ---
 ## 📹 Demo Video
 
-🎥 Demo Walkthrough: https://youtu.be/hHN-l7o4r7o
+🎥 Demo Walkthrough: https://youtu.be/9emf7KD0wNk
 
 ---
 
