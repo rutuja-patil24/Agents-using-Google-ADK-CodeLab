@@ -31,7 +31,7 @@ The Sports Shop Agent uses:
 
 ## 📹 Demo Video
 
-🎥 Add your video link here.
+🎥 https://youtu.be/-7UO6zZYVWM
 
 ---
 
